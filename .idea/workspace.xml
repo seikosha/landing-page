@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59378679-b288-488b-8505-7d9e0cf1097c" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="59378679-b288-488b-8505-7d9e0cf1097c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VO7Z8BVF4ayk9GpOYSV6l5reUX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -25,6 +43,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/app.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.scratch_1.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -37,11 +69,65 @@
       <updated>1577112339129</updated>
       <workItem from="1577112340404" duration="1304000" />
       <workItem from="1577190349015" duration="78000" />
-      <workItem from="1577192554142" duration="2165000" />
+      <workItem from="1577192554142" duration="4125000" />
+      <workItem from="1577429077693" duration="6273000" />
+      <workItem from="1577449048101" duration="5228000" />
+      <workItem from="1577516226566" duration="361000" />
+      <workItem from="1577519341857" duration="2150000" />
+      <workItem from="1577582962658" duration="4818000" />
+      <workItem from="1577629753413" duration="2365000" />
+      <workItem from="1577672782417" duration="5607000" />
+      <workItem from="1577756601448" duration="10724000" />
+      <workItem from="1577791228392" duration="5933000" />
+      <workItem from="1577841760605" duration="8106000" />
+      <workItem from="1577883972868" duration="1218000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1259" height="213" key="GridCell.Tab.0.bottom" timestamp="1577809471154">
+      <screen x="0" y="23" width="1280" height="701" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.bottom/0.23.1280.699@0.23.1280.699" timestamp="1577798665590" />
+    <state width="1259" height="213" key="GridCell.Tab.0.bottom/0.23.1280.701@0.23.1280.701" timestamp="1577809471154" />
+    <state width="1259" height="213" key="GridCell.Tab.0.center" timestamp="1577809471153">
+      <screen x="0" y="23" width="1280" height="701" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.center/0.23.1280.699@0.23.1280.699" timestamp="1577798665589" />
+    <state width="1259" height="213" key="GridCell.Tab.0.center/0.23.1280.701@0.23.1280.701" timestamp="1577809471153" />
+    <state width="1259" height="213" key="GridCell.Tab.0.left" timestamp="1577809471153">
+      <screen x="0" y="23" width="1280" height="701" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.left/0.23.1280.699@0.23.1280.699" timestamp="1577798665588" />
+    <state width="1259" height="213" key="GridCell.Tab.0.left/0.23.1280.701@0.23.1280.701" timestamp="1577809471153" />
+    <state width="1259" height="213" key="GridCell.Tab.0.right" timestamp="1577809471154">
+      <screen x="0" y="23" width="1280" height="701" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.right/0.23.1280.699@0.23.1280.699" timestamp="1577798665589" />
+    <state width="1259" height="213" key="GridCell.Tab.0.right/0.23.1280.701@0.23.1280.701" timestamp="1577809471154" />
+    <state x="300" y="90" key="RollbackChangesDialog" timestamp="1577798027996">
+      <screen x="0" y="23" width="1280" height="699" />
+    </state>
+    <state x="300" y="90" key="RollbackChangesDialog/0.23.1280.699@0.23.1280.699" timestamp="1577798027996" />
+    <state x="370" y="291" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577809333730">
+      <screen x="0" y="23" width="1280" height="701" />
+    </state>
+    <state x="370" y="291" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1280.701@0.23.1280.701" timestamp="1577809333730" />
   </component>
 </project>
