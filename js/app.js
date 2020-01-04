@@ -18,12 +18,8 @@
  *
 */
 
-
-
-
-
-
-
+const ul = document.querySelector("#navbar__list");
+const navContents = document.querySelectorAll("section");
 
 /**
  * End Global Variables
@@ -31,112 +27,52 @@
  *
 */
 
-
-
 /**
  * End Helper Functions
  * Begin Main Functions
  *
 */
 
-// build the nav
-
-// function createNav()
-// {
-//     const navLinks = document.querySelector("ul");
-//     navLinks.insertAdjacentHTML("beforeend","<li id='0'><a href=#top><p>Top</p></a></li>");
-//     navLinks.insertAdjacentHTML("beforeend","<li id='1'><a href=#section1><p>Section 1</p></a></li>");
-//     navLinks.insertAdjacentHTML("beforeend","<li id='2'><a href=#section2><p>Section 2</p></a></li>");
-//     navLinks.insertAdjacentHTML("beforeend","<li id='3'><a href=#section3><p>Section 3</p></a></li>");
-// }
-// createNav();
-
-const navList = document.querySelector("#navbar__list");
-const navContents = document.querySelectorAll("section");
+// build the nav with "for...of" loop
 
 for (let navContent of navContents)
 {
     const lis = document.createElement("li");
     for (let i = 0; i < navContents.length; i++)
     {
-        const liName = document.querySelectorAll("section")[i].id;
-        lis.innerHTML = "<a href="+liName+">"+navContent.id+"</a>";
+        let liNames = navContent.id;
+        lis.innerHTML = "<a href=#"+liNames+">"+navContent.id+"</a>";
     }
-    navList.appendChild(lis);
+    ul.appendChild(lis);
 }
 
+// Add class 'active' to section when near top of viewport
+// reference: https://gomakethings.com/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/
 
-let isInViewport = function (elem) {
-    let bounding = elem.getBoundingClientRect();
+function inViewport(element) {
+    let bounding = element.getBoundingClientRect();
     return (
         bounding.top >= 0 &&
         bounding.left >= 0 &&
         bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
         bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
-};
+}
 
-const section00 = document.getElementById("top");
-
-window.addEventListener("scroll",function(){
-    if (isInViewport(section00)){
-        section00.classList.add("active");
-    } else {
-        section00.classList.remove("active");
+window.addEventListener("scroll", function() {
+    for (const section of navContents) {
+        if (inViewport(section)) {
+            section.classList.add("active");
+        } else {
+            section.classList.remove("active");
+        }
     }
 });
-
-const section11 = document.getElementById("section1");
-
-window.addEventListener("scroll",function(){
-    if (isInViewport(section11)){
-        section11.classList.add("active");
-    } else {
-        section11.classList.remove("active");
-    }
-});
-
-const section22 = document.getElementById("section2");
-
-window.addEventListener("scroll",function(){
-    if (isInViewport(section22)){
-        section22.classList.add("active");
-    } else {
-        section22.classList.remove("active");
-    }
-});
-
-const section33 = document.getElementById("section3");
-
-window.addEventListener("scroll",function(){
-    if (isInViewport(section33)){
-        section33.classList.add("active");
-    } else {
-        section33.classList.remove("active");
-    }
-});
-
-
-
-
-
-// Add class 'active' to section when near top of viewport
-
-
-// Scroll to anchor ID using scrollTO event
-
-
 
 /**
  * End Main Functions
  * Begin Events
  *
 */
-
-// Build menu
-
-// Scroll to section on link click
-
-// Set sections as active
 
 
