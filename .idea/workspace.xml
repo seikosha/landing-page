@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59378679-b288-488b-8505-7d9e0cf1097c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="59378679-b288-488b-8505-7d9e0cf1097c" name="Default Changelist" comment="Udacity project-2 landing page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目要求.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1VO7Z8BVF4ayk9GpOYSV6l5reUX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,21 +26,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/landingPage-master" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Node.js.app.js">
+  <component name="RunManager" selected="Node.js.scratch_1.js">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/app.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
@@ -52,10 +37,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.scratch_1.js" />
+        <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,7 +78,27 @@
       <workItem from="1577791228392" duration="5933000" />
       <workItem from="1577841760605" duration="8106000" />
       <workItem from="1577883972868" duration="1218000" />
+      <workItem from="1577972694789" duration="6025000" />
+      <workItem from="1578017878972" duration="109000" />
+      <workItem from="1578018173927" duration="194000" />
+      <workItem from="1578018656198" duration="1929000" />
+      <workItem from="1578043113240" duration="6269000" />
     </task>
+    <task id="LOCAL-00001" summary="Udacity project-2 landing page">
+      <created>1577954237914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577954237914</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Udacity project-2 landing page">
+      <created>1578097467949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578097467949</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,31 +117,51 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Udacity project-2 landing page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Udacity project-2 landing page" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="213" key="GridCell.Tab.0.bottom" timestamp="1577809471154">
-      <screen x="0" y="23" width="1280" height="701" />
+    <state x="198" y="0" key="CommitChangelistDialog2" timestamp="1578097744433">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1259" height="213" key="GridCell.Tab.0.bottom/0.23.1280.699@0.23.1280.699" timestamp="1577798665590" />
-    <state width="1259" height="213" key="GridCell.Tab.0.bottom/0.23.1280.701@0.23.1280.701" timestamp="1577809471154" />
-    <state width="1259" height="213" key="GridCell.Tab.0.center" timestamp="1577809471153">
-      <screen x="0" y="23" width="1280" height="701" />
+    <state x="198" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578097744433" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1578097378433">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1259" height="213" key="GridCell.Tab.0.center/0.23.1280.699@0.23.1280.699" timestamp="1577798665589" />
-    <state width="1259" height="213" key="GridCell.Tab.0.center/0.23.1280.701@0.23.1280.701" timestamp="1577809471153" />
-    <state width="1259" height="213" key="GridCell.Tab.0.left" timestamp="1577809471153">
-      <screen x="0" y="23" width="1280" height="701" />
-    </state>
-    <state width="1259" height="213" key="GridCell.Tab.0.left/0.23.1280.699@0.23.1280.699" timestamp="1577798665588" />
-    <state width="1259" height="213" key="GridCell.Tab.0.left/0.23.1280.701@0.23.1280.701" timestamp="1577809471153" />
-    <state width="1259" height="213" key="GridCell.Tab.0.right" timestamp="1577809471154">
-      <screen x="0" y="23" width="1280" height="701" />
-    </state>
-    <state width="1259" height="213" key="GridCell.Tab.0.right/0.23.1280.699@0.23.1280.699" timestamp="1577798665589" />
-    <state width="1259" height="213" key="GridCell.Tab.0.right/0.23.1280.701@0.23.1280.701" timestamp="1577809471154" />
-    <state x="300" y="90" key="RollbackChangesDialog" timestamp="1577798027996">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578097378433" />
+    <state width="1259" height="213" key="GridCell.Tab.0.bottom" timestamp="1577982439845">
       <screen x="0" y="23" width="1280" height="699" />
     </state>
-    <state x="300" y="90" key="RollbackChangesDialog/0.23.1280.699@0.23.1280.699" timestamp="1577798027996" />
+    <state width="1259" height="213" key="GridCell.Tab.0.bottom/0.23.1280.699@0.23.1280.699" timestamp="1577982439845" />
+    <state width="1259" height="213" key="GridCell.Tab.0.bottom/0.23.1280.701@0.23.1280.701" timestamp="1577809471154" />
+    <state width="1259" height="213" key="GridCell.Tab.0.center" timestamp="1577982439839">
+      <screen x="0" y="23" width="1280" height="699" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.center/0.23.1280.699@0.23.1280.699" timestamp="1577982439839" />
+    <state width="1259" height="213" key="GridCell.Tab.0.center/0.23.1280.701@0.23.1280.701" timestamp="1577809471153" />
+    <state width="1259" height="213" key="GridCell.Tab.0.left" timestamp="1577982439837">
+      <screen x="0" y="23" width="1280" height="699" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.left/0.23.1280.699@0.23.1280.699" timestamp="1577982439837" />
+    <state width="1259" height="213" key="GridCell.Tab.0.left/0.23.1280.701@0.23.1280.701" timestamp="1577809471153" />
+    <state width="1259" height="213" key="GridCell.Tab.0.right" timestamp="1577982439843">
+      <screen x="0" y="23" width="1280" height="699" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.right/0.23.1280.699@0.23.1280.699" timestamp="1577982439843" />
+    <state width="1259" height="213" key="GridCell.Tab.0.right/0.23.1280.701@0.23.1280.701" timestamp="1577809471154" />
+    <state x="300" y="90" key="RollbackChangesDialog" timestamp="1577977002402">
+      <screen x="0" y="23" width="1280" height="699" />
+    </state>
+    <state x="300" y="90" key="RollbackChangesDialog/0.23.1280.699@0.23.1280.699" timestamp="1577977002402" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578097476968">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578097476968" />
+    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578097626392">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1578097626392" />
     <state x="370" y="291" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577809333730">
       <screen x="0" y="23" width="1280" height="701" />
     </state>
