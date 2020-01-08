@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="59378679-b288-488b-8505-7d9e0cf1097c" name="Default Changelist" comment="Udacity project-2 landing page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/项目要求.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/landingPage-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../weather-journal-app" />
   </component>
   <component name="RunManager" selected="Node.js.scratch_1.js">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/app.js" working-dir="$PROJECT_DIR$/js">
@@ -82,7 +84,11 @@
       <workItem from="1578017878972" duration="109000" />
       <workItem from="1578018173927" duration="194000" />
       <workItem from="1578018656198" duration="1929000" />
-      <workItem from="1578043113240" duration="6269000" />
+      <workItem from="1578043113240" duration="6894000" />
+      <workItem from="1578145255390" duration="6000" />
+      <workItem from="1578147316118" duration="6787000" />
+      <workItem from="1578204952058" duration="5733000" />
+      <workItem from="1578314682876" duration="7413000" />
     </task>
     <task id="LOCAL-00001" summary="Udacity project-2 landing page">
       <created>1577954237914</created>
@@ -98,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578097467949</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Udacity project-2 landing page">
+      <created>1578104259644</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578104259644</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,14 +135,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Udacity project-2 landing page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="198" y="0" key="CommitChangelistDialog2" timestamp="1578097744433">
+    <state x="198" y="0" key="CommitChangelistDialog2" timestamp="1578454671527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="198" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578097744433" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1578097378433">
+    <state x="198" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578454671527" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1578359569323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578097378433" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578359569323" />
     <state width="1259" height="213" key="GridCell.Tab.0.bottom" timestamp="1577982439845">
       <screen x="0" y="23" width="1280" height="699" />
     </state>
@@ -154,14 +167,18 @@
       <screen x="0" y="23" width="1280" height="699" />
     </state>
     <state x="300" y="90" key="RollbackChangesDialog/0.23.1280.699@0.23.1280.699" timestamp="1577977002402" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578097476968">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578104263445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578097476968" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578104263445" />
     <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578097626392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1578097626392" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1578193244512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1578193244512" />
     <state x="370" y="291" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577809333730">
       <screen x="0" y="23" width="1280" height="701" />
     </state>

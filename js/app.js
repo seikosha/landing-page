@@ -1,40 +1,8 @@
-/**
- *
- * Manipulating the DOM exercise.
- * Exercise programmatically builds navigation,
- * scrolls to anchors from navigation,
- * and highlights section in viewport upon scrolling.
- *
- * Dependencies: None
- *
- * JS Version: ES2015/ES6
- *
- * JS Standard: ESlint
- *
-*/
-
-/**
- * Define Global Variables
- *
-*/
-
+// Define Global Variables
 const ul = document.querySelector("#navbar__list");
 const navContents = document.querySelectorAll("section");
 
-/**
- * End Global Variables
- * Start Helper Functions
- *
-*/
-
-/**
- * End Helper Functions
- * Begin Main Functions
- *
-*/
-
 // build the nav with "for...of" loop
-
 for (let navContent of navContents)
 {
     const lis = document.createElement("li");
@@ -46,19 +14,23 @@ for (let navContent of navContents)
     ul.appendChild(lis);
 }
 
-// Add class 'active' to section when near top of viewport
-// reference: https://gomakethings.com/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/
+//check if
+function inViewport(element) {
+    let isVisible = false;
 
-function inViewport(element) {
-    let bounding = element.getBoundingClientRect();
-    return (
-        bounding.top >= 0 &&
-        bounding.left >= 0 &&
-        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
+    const pageScrollHeight = window.pageYOffset;
+    const topValue = element.offsetTop;
+
+
+    if (pageScrollHeight >= topValue) {
+        isVisible = true;
+    } else {
+        isVisible = false;
+    }
+    return isVisible;
 }
 
+// Add class 'active' to section when near top of viewport
 window.addEventListener("scroll", function() {
     for (const section of navContents) {
         if (inViewport(section)) {
@@ -68,11 +40,3 @@ window.addEventListener("scroll", function() {
         }
     }
 });
-
-/**
- * End Main Functions
- * Begin Events
- *
-*/
-
-
